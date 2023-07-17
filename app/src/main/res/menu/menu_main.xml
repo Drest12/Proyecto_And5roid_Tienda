@@ -1,0 +1,84 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sistema_modas.ActividadPrincipal">
+    <item
+        android:id="@+id/jmiInicio"
+        android:orderInCategory="100"
+        android:title="Inicio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/jmiCliente"
+        android:orderInCategory="101"
+        android:title="Cliente" />
+    <item
+        android:id="@+id/jmiEmpleado"
+        android:orderInCategory="102"
+        android:title="Empleado" />
+
+    <item
+        android:id="@+id/jmiPrenda"
+        android:orderInCategory="103"
+        android:title="Prenda" />
+    <item
+        android:id="@+id/jmiCategoria"
+        android:orderInCategory="104"
+        android:title="Categoria" />
+    <item
+        android:id="@+id/jmiDetalle"
+        android:orderInCategory="106"
+        android:title="Detalle de Venta" />
+    <item
+        android:id="@+id/jmiVenta"
+        android:orderInCategory="105"
+        android:title="Venta" />
+    <item
+        android:id="@+id/jmiRol"
+        android:orderInCategory="107"
+        android:title="Rol" />
+    <item
+        android:id="@+id/jmiDistrito"
+        android:orderInCategory="108"
+        android:title="Distrito" />
+    <item
+        android:id="@+id/jmiUsuarioRol"
+        android:orderInCategory="109"
+        android:title="Usuario" />
+    <item
+        android:id="@+id/jmiBusquedas"
+        android:orderInCategory="110"
+        android:title="Busquedas" >
+        <menu >
+            <item
+                android:id="@+id/jmiBuscarCliente"
+                android:title="Cliente" />
+            <item
+                android:id="@+id/jmiBuscarEmpleado"
+                android:title="Empleado" />
+            <item
+                android:id="@+id/jmiBuscarCategoria"
+                android:title="Categoria" />
+            <item
+                android:id="@+id/jmiBuscarDistrito"
+                android:title="Distrito" />
+            <item
+                android:id="@+id/jmiBuscarRol"
+                android:title="Rol" />
+            <item
+                android:id="@+id/jmiBuscarPrenda"
+                android:title="Prenda" />
+
+            <item
+                android:id="@+id/jmiBuscarVenta"
+                android:title="Venta" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/jmiCerrarSesion"
+        android:orderInCategory="111"
+        android:title="Cerrar Sesion" />
+    <item
+        android:id="@+id/jmiSalir"
+        android:orderInCategory="112"
+        android:title="Salir" />
+</menu>
